@@ -186,6 +186,7 @@ if __name__ == '__main__':
     opt = parser.parse_args()
     print(opt)
     #check_requirements(exclude=('pycocotools', 'thop'))
+    print("EDEDEDE")
 
     with torch.no_grad():
         if opt.update:  # update all models (to fix SourceChangeWarning)
